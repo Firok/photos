@@ -15,5 +15,6 @@ urlpatterns = [
          name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(),
          name='token_refresh'),
+    path('api/', include('apps.photos.urls')),
     path('docs/', get_swagger_view(title='API Docs'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
