@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# pyenv
+.python-version
+
+# pytest stuff
+.pytest_cache/
+
+.DS_Store
+media/
