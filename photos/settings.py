@@ -31,10 +31,10 @@ ALLOWED_HOSTS = ['*']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'photosdb',
-        'USER': 'photosdb',
-        'PASSWORD': 'photosdb@photosdb',
-        'HOST': os.environ.get('POSTGRES_HOST', 'localhost'),
+        'NAME': 'deo9e3r8i01ph',
+        'USER': 'momlwuewmgtrwb',
+        'PASSWORD': 'a2dd7033529f99654781fd1d1e1930bda7f4fb3546a1d9872e398465fbc2155f',
+        'HOST': 'ec2-54-197-254-117.compute-1.amazonaws.com',
         'PORT': os.environ.get('POSTGRES_PORT', 5432)
     }
 }
